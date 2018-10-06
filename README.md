@@ -1,4 +1,8 @@
-# Performs the magic of stock analysis
+# StockSense
+
+## Stock analysis automated at your fingertips
+
+![StockSense](docs/images/cli-home.png "StockSense CLI")
 
 ## Installation
 
