@@ -1,0 +1,13 @@
+version: "3"
+services:
+    stocksense:
+        image: "stocksense:dev"
+        build:
+            context: .
+            dockerfile: Dockerfile
+        hostname: stocksense
+        stdin_open: true
+        tty: true
+        working_dir: '/stocksense-dev'
+        volumes:
+            - ".:/stocksense-dev"
